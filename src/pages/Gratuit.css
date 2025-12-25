@@ -1,0 +1,119 @@
+.gratuit-page {
+  padding-top: 100px;
+  min-height: calc(100vh - 200px);
+}
+
+.gratuit-hero {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 4rem;
+  padding: 0 2rem;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  color: var(--color-text-dark);
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-gray);
+  line-height: 1.8;
+}
+
+.resources-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.resource-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.resource-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.resource-icon.blue {
+  background-color: var(--color-secondary);
+}
+
+.resource-icon.brown {
+  background-color: var(--color-primary);
+}
+
+.resource-title {
+  font-size: 1.4rem;
+  color: var(--color-text-dark);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.resource-description {
+  color: var(--color-text-gray);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+  flex-grow: 1;
+  font-size: 0.95rem;
+}
+
+.resource-button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.resource-button:hover {
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(26, 54, 93, 0.3);
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .resource-card {
+    padding: 2rem;
+  }
+}
+
