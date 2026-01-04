@@ -4,7 +4,6 @@ import './Header.css';
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('');
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,12 +38,7 @@ const Header = () => {
         top: offsetPosition,
         behavior: 'smooth'
       });
-      setIsMobileMenuOpen(false); // Fermer le menu mobile après clic
     }
-  };
-
-  const toggleMobileMenu = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
@@ -56,7 +50,7 @@ const Header = () => {
             <span className="logo-zidnii">ZIDNII</span>
           </span>
         </button>
-        <nav className={`nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+        <nav className="nav">
           <button 
             onClick={() => handleScrollTo('a-propos')} 
             className={activeSection === 'a-propos' ? 'active' : ''}
@@ -90,13 +84,6 @@ const Header = () => {
         </nav>
         <button onClick={() => handleScrollTo('contact')} className="btn-register">
           S'inscrire
-        </button>
-        <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Menu">
-          <span className={`hamburger ${isMobileMenuOpen ? 'open' : ''}`}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
         </button>
       </div>
     </header>
