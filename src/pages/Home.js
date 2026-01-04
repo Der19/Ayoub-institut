@@ -481,7 +481,7 @@ const Home = () => {
             </div>
 
             <div className="form-group">
-              <label htmlFor="age">Âge / Niveau scolaire *</label>
+              <label htmlFor="age">Âge / Niveau *</label>
               <input
                 type="text"
                 id="age"
