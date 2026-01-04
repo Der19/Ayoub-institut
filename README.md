@@ -1,6 +1,6 @@
-# Enjoy Institut - Site Web
+# Zidnii Institut - Site Web
 
-Site web pour Enjoy Institut, une plateforme d'éducation en ligne dédiée à l'accompagnement scolaire et spirituel.
+Site web pour Zidnii Institut, une plateforme d'éducation en ligne dédiée à l'accompagnement scolaire et spirituel.
 
 ## 🚀 Installation
 

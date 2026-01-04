@@ -132,7 +132,7 @@ const BackgroundMusic = () => {
     <>
       <audio
         ref={audioRef}
-        src={`${process.env.PUBLIC_URL}/music/alphabet.mp3`}
+        src={`${process.env.PUBLIC_URL}/music/alphabet (mp3cut.net).mp3`}
         loop
         preload="auto"
       />
@@ -162,13 +162,12 @@ const BackgroundMusic = () => {
         title={isPlaying ? "Arrêter la récitation" : "Lire récitation alphabet"}
       >
         {isPlaying ? (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M11 5L6 9H2v6h4l5 4V5zM19 9l-6 6M13 9l6 6"/>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
           </svg>
         ) : (
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M11 5L6 9H2v6h4l5 4V5z"/>
-            <path d="M19 10a9 9 0 0 1-2.22 5.78M19 10a9 9 0 0 0-2.22-5.78M19 10v4M19 10h-4"/>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M8 5v14l11-7z"/>
           </svg>
         )}
       </button>

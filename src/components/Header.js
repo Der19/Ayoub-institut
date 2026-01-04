@@ -4,6 +4,7 @@ import './Header.css';
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,19 +39,24 @@ const Header = () => {
         top: offsetPosition,
         behavior: 'smooth'
       });
+      setIsMobileMenuOpen(false); // Fermer le menu mobile après clic
     }
+  };
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <button onClick={() => handleScrollTo('accueil')} className="logo">
-          <img src={`${process.env.PUBLIC_URL}/images/image2.png`} alt="Ayoub Institut Logo" className="logo-image" />
+          <img src={`${process.env.PUBLIC_URL}/images/image2.png`} alt="Zidnii Institut Logo" className="logo-image" />
           <span className="logo-text">
-            <span className="logo-ayoub">AYOUB</span>
+            <span className="logo-zidnii">ZIDNII</span>
           </span>
         </button>
-        <nav className="nav">
+        <nav className={`nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <button 
             onClick={() => handleScrollTo('a-propos')} 
             className={activeSection === 'a-propos' ? 'active' : ''}
@@ -84,6 +90,13 @@ const Header = () => {
         </nav>
         <button onClick={() => handleScrollTo('contact')} className="btn-register">
           S'inscrire
+        </button>
+        <button className="mobile-menu-toggle" onClick={toggleMobileMenu} aria-label="Menu">
+          <span className={`hamburger ${isMobileMenuOpen ? 'open' : ''}`}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </button>
       </div>
     </header>

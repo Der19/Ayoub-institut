@@ -1,7 +1,7 @@
 {
-  "name": "ayoub-institut",
+  "name": "zidnii-institut",
   "version": "1.0.0",
-  "description": "Site web pour Ayoub Institut - Éducation en ligne",
+  "description": "Site web pour Zidnii Institut - Éducation en ligne",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
