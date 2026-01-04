@@ -45,10 +45,7 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
         <button onClick={() => handleScrollTo('accueil')} className="logo">
-          <img src={`${process.env.PUBLIC_URL}/images/image2.png`} alt="Zidnii Institut Logo" className="logo-image" />
-          <span className="logo-text">
-            <span className="logo-zidnii">ZIDNII</span>
-          </span>
+          <img src={`${process.env.PUBLIC_URL}/images/immgggg.jpeg`} alt="Zidnii Institut Logo" className="logo-image" />
         </button>
         <nav className="nav">
           <button 
