@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollToTopButton from './ScrollToTopButton';
 import './Footer.css';
 
 const Footer = () => {
@@ -76,7 +75,6 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 Zidnii Institut. Tous droits réservés.</p>
       </div>
-      <ScrollToTopButton />
     </footer>
   );
 };
