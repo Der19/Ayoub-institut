@@ -3,7 +3,7 @@ import './APropos.css';
 
 const APropos = () => {
   return (
-    <div className="apropos-page">
+    <div className="apropos-page"
       <section className="apropos-hero">
         <h1 className="page-title">Un institut en ligne conçu pour toute la Oumma Islamique</h1>
         <p className="page-subtitle">
