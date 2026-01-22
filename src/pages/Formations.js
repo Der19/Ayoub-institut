@@ -7,29 +7,29 @@ const Formations = () => {
       badge: "Prochainement",
       icon: "🎨",
       title: "Design & Créativité",
-      description: "Découverte de la conception graphique et réalisations artistiques pour adolescents et adultes. Maîtrisez la création d'images pour vos initiatives individuelles."
+      description: "Exploration de la création graphique et productions artistiques pour adolescents et adultes. Apprenez la réalisation d'images pour vos projets personnels."
     },
     {
       badge: "En préparation",
       icon: "💚",
       title: "Bien-être & Hygiène de vie",
-      description: "Formation sur l'aménagement du domicile, compréhension familiale, maîtrise des tensions et épanouissement individuel islamique. Nous soutenons aussi les mères dont les enfants présentent un TDAH ou d'autres nécessités spécifiques, avec des recommandations personnalisées et attentionnées. Pour des mères accomplies et assurées, bi idhnillâh."
+      description: "Programme sur l'organisation du foyer, harmonie familiale, gestion des conflits et développement personnel islamique. Nous accompagnons également les mères dont les enfants présentent un TDAH ou d'autres besoins particuliers, avec des conseils sur mesure et bienveillants. Pour des mères épanouies et confiantes, bi idhnillâh."
     },
     {
       badge: "Bientôt",
       icon: "👭",
       title: "Masterclass pour sœurs",
-      description: "Échanges à thème entre sœurs : administration du domicile, parentalité éveillée, foi au quotidien. Des instants d'échange et de solidarité féminine."
+      description: "Discussions thématiques entre sœurs : gestion du foyer, éducation consciente, spiritualité quotidienne. Des moments de partage et d'entraide féminine."
     }
   ];
 
   return (
     <div className="formations-page">
       <section className="formations-hero">
-        <h1 className="page-title">Bientôt disponibles : nouvelles formations</h1>
+        <h1 className="page-title">Prochainement disponibles : nouvelles formations</h1>
         <p className="page-subtitle">
-          Nous préparons des contenus pour toute la famille, in cha Allah. 
-          Restez connectées pour découvrir nos futures formations et masterclass.
+          Nous élaborons des programmes pour toute la famille, in cha Allah. 
+          Restez à l'écoute pour explorer nos prochaines formations et masterclass.
         </p>
       </section>
 

@@ -47,7 +47,7 @@ const Home = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Votre demande a été envoyée ! Nous vous répondrons sous 48h in sha\'Allah.');
+    alert('Votre demande a été envoyée ! Nous vous répondrons sous 24h in sha\'Allah.');
   };
 
   const handleDownload = (resourceName) => {
@@ -95,19 +95,19 @@ const Home = () => {
       <section id="accueil" className="hero" style={heroStyle}>
         <div className="hero-content">
           <h1 className="hero-title">
-            Accompagnons ensemble la réussite scolaire et spirituelle de vos enfants
+            Soutenons ensemble l'épanouissement académique et spirituel de vos enfants
           </h1>
           <div className="hero-services">
-            <span>Cours en ligne personnalisés</span>
+            <span>Formations en ligne sur mesure</span>
             <span>•</span>
-            <span>Soutien scolaire</span>
+            <span>Aide scolaire</span>
             <span>•</span>
             <span>Langue arabe</span>
             <span>•</span>
             <span>Quran</span>
           </div>
           <p className="hero-motto">
-            Dans la douceur et la bienveillance, pour des bases solides
+            Avec tendresse et compassion, pour des fondations robustes
           </p>
           <div className="hero-buttons">
             <button onClick={() => handleScrollTo('cours')} className="btn-primary">
@@ -132,15 +132,15 @@ const Home = () => {
       <section className="features">
         <div className="feature-card">
           <div className="feature-icon">📚</div>
-          <h3>Une expérience solide dans l'accompagnement des élèves</h3>
+          <h3>Une expertise approfondie dans le suivi des apprenants</h3>
         </div>
         <div className="feature-card">
           <div className="feature-icon">❤️</div>
-          <h3>Pédagogie bienveillante</h3>
+          <h3>Approche pédagogique bienveillante</h3>
         </div>
         <div className="feature-card">
           <div className="feature-icon">💬</div>
-          <h3>Réponse sous 48h</h3>
+          <h3>Réponse sous 24h</h3>
         </div>
       </section>
 
@@ -149,8 +149,8 @@ const Home = () => {
         <div className="cours-hero">
           <h1 className="page-title">Nos cours en ligne</h1>
           <p className="page-subtitle">
-            Des programmes adaptés à chaque besoin, pour chaque période de l'année. 
-            Parce que l'apprentissage ne s'arrête jamais.
+            Des contenus personnalisés selon chaque profil, pour chaque moment de l'année. 
+            Car la formation se poursuit en permanence.
           </p>
         </div>
 
@@ -163,9 +163,9 @@ const Home = () => {
             </div>
             <h2 className="cours-title">Aide aux devoirs & cours particuliers</h2>
             <p className="cours-description">
-              Votre enfant a besoin d'un coup de pouce en français, mathématiques ou anglais ? 
-              Nos cours particuliers et séances d'aide aux devoirs lui permettent de progresser 
-              en douceur, à son rythme.
+              Votre enfant nécessite un soutien en français, mathématiques ou anglais ? 
+              Nos leçons individuelles et sessions d'assistance aux devoirs lui offrent la possibilité d'avancer 
+              progressivement, selon sa cadence.
             </p>
             <ul className="cours-features">
               <li>
@@ -193,9 +193,9 @@ const Home = () => {
             </div>
             <h2 className="cours-title">Apprentissage de la langue arabe</h2>
             <p className="cours-description">
-              Offrez à votre enfant (ou à vous-même) la clé du Quran : la langue arabe. 
-              De l'alphabet aux conversations courantes, notre méthode progressive et ludique 
-              rend l'apprentissage fluide et agréable.
+              Proposez à votre enfant (ou à vous-même) l'accès au Quran : la langue arabe. 
+              Depuis l'alphabet jusqu'aux échanges quotidiens, notre approche graduelle et amusante 
+              transforme la formation en expérience naturelle et plaisante.
             </p>
             <ul className="cours-features">
               <li>
@@ -223,8 +223,8 @@ const Home = () => {
             </div>
             <h2 className="cours-title">Quran</h2>
             <p className="cours-description">
-              Initiez votre enfant à la mémorisation du Quran avec tajwid. 
-              Nos cours allient rigueur et bienveillance.
+              Introduisez votre enfant à l'apprentissage par cœur du Quran avec tajwid. 
+              Nos formations combinent sérieux et compassion.
             </p>
             <ul className="cours-features">
               <li>
@@ -248,92 +248,42 @@ const Home = () => {
       {/* Gratuit Section */}
       <section id="gratuit" className="gratuit-section">
         <div className="gratuit-hero">
-          <h1 className="page-title">Ressources gratuites pour bien démarrer</h1>
+          <h1 className="page-title">📣 Annonce des Assises du Vendredi</h1>
           <p className="page-subtitle">
-            Téléchargez nos supports pédagogiques et découvrez notre approche. 
-            Aucune inscription requise, juste un petit geste pour vous aider dès maintenant.
+            Correction de la lecture de Sūrat al-Fātiḥa
           </p>
         </div>
 
-        <div className="resources-grid">
-          <div className="resource-card">
-            <div className="resource-icon blue">
-              <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                <polyline points="14 2 14 8 20 8"/>
-                <line x1="16" y1="13" x2="8" y2="13"/>
-                <line x1="16" y1="17" x2="8" y2="17"/>
-                <polyline points="10 9 9 9 8 9"/>
-              </svg>
-            </div>
-            <h2 className="resource-title">Guide de méthodologie pour les devoirs</h2>
-            <p className="resource-description">
-              Conseils pratiques et bienveillants pour aider votre enfant à s'organiser, 
-              réviser efficacement et gagner en autonomie.
+        <div className="gratuit-content">
+          <div className="gratuit-card">
+            <p className="gratuit-text">
+              <strong>Alḥamdulillāh</strong>, nous ouvrons chaque vendredi à 20h (heure de France) une assise dédiée à la correction de la lecture de <strong>Sūrat al-Fātiḥa</strong>, ouverte à tous : hommes, femmes et enfants.
             </p>
-            <button 
-              className="resource-button"
-              onClick={() => handleDownload('Guide de méthodologie')}
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                <polyline points="7 10 12 15 17 10"/>
-                <line x1="12" y1="15" x2="12" y2="3"/>
-              </svg>
-              Télécharger (PDF)
-            </button>
-          </div>
 
-          <div className="resource-card">
-            <div className="resource-icon brown">
-              <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
-              </svg>
-            </div>
-            <h2 className="resource-title">Poster alphabet arabe illustré</h2>
-            <p className="resource-description">
-              Un support visuel coloré et ludique pour apprendre les 28 lettres arabes en s'amusant. 
-              Parfait à afficher dans la chambre.
+            <h3 className="gratuit-subtitle">🎯 Objectif :</h3>
+            <p className="gratuit-text">
+              Améliorer ta récitation, corriger tes erreurs, et perfectionner ta lecture.
             </p>
-            <button 
-              className="resource-button"
-              onClick={() => handleDownload('Poster alphabet arabe')}
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                <polyline points="7 10 12 15 17 10"/>
-                <line x1="12" y1="15" x2="12" y2="3"/>
-              </svg>
-              Télécharger (PDF)
-            </button>
-          </div>
 
-          <div className="resource-card">
-            <div className="resource-icon blue">
-              <svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
-                <line x1="16" y1="2" x2="16" y2="6"/>
-                <line x1="8" y1="2" x2="8" y2="6"/>
-                <line x1="3" y1="10" x2="21" y2="10"/>
-              </svg>
-            </div>
-            <h2 className="resource-title">Planning de révision imprimable</h2>
-            <p className="resource-description">
-              Organisez la semaine de votre enfant avec ce planning coloré et motivant. 
-              Révisions, loisirs, Quran : tout trouve sa place.
+            <h3 className="gratuit-subtitle">📖 Pourquoi participer ?</h3>
+            <ul className="gratuit-list">
+              <li>La Fātiḥa est la mère du Qur'ān, la sourate la plus importante</li>
+              <li>Sa bonne lecture est une obligation dans chaque prière</li>
+              <li>Une correction régulière garantit une récitation conforme et apaisée</li>
+            </ul>
+
+            <p className="gratuit-text">
+              🕊️ Séance ouverte à tous les niveaux, dans une ambiance sérieuse, bienveillante et motivante.
             </p>
-            <button 
-              className="resource-button"
-              onClick={() => handleDownload('Planning de révision')}
+
+            <a
+              href="https://t.me/zidniicours"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gratuit-button"
             >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                <polyline points="7 10 12 15 17 10"/>
-                <line x1="12" y1="15" x2="12" y2="3"/>
-              </svg>
-              Télécharger (PDF)
-            </button>
+              Rejoindre via Telegram
+            </a>
           </div>
         </div>
       </section>
@@ -341,41 +291,42 @@ const Home = () => {
       {/* A Propos Section */}
       <section id="a-propos" className="apropos-section">
         <div className="apropos-hero">
-          <h1 className="page-title">Un institut en ligne pensé pour votre famille</h1>
+          <h1 className="page-title">Un institut en ligne conçu pour toute la Oumma Islamique</h1>
           <p className="page-subtitle">
-            Depuis 2023, nous accompagnons les mamans dans l'éducation de leurs enfants avec sérieux, 
-            patience et amour. Parce que chaque enfant mérite d'apprendre dans la joie et la confiance.
+            Nous accompagnons les mamans dans la formation et le développement de leurs enfants 
+            avec sérieux, tendresse et compassion. Car chaque enfant mérite d'étudier dans une 
+            atmosphère paisible et sécurisante.
           </p>
         </div>
 
         <div className="values-section">
           <div className="value-card-large">
             <div className="value-icon-large">🛡️</div>
-            <h2 className="value-title">Excellence pédagogique</h2>
+            <h2 className="value-title">Qualité pédagogique</h2>
             <p className="value-description">
-              Des enseignements personnalisés selon les capacités de chaque élève, avec une méthode qui facilite 
-              l'acquisition des connaissances de manière agréable. Nous sommes convaincus qu'un élève passionné 
-              par l'apprentissage excellera naturellement, bi idhnillah.
+              Des cours ajustés à la cadence et aux capacités de chaque apprenant, avec une méthode éducative 
+              qui facilite la formation de façon plus naturelle et inspirante. Nous sommes convaincus qu'un enfant éveillé 
+              et soutenu avancera spontanément, bi idhnillah.
             </p>
           </div>
 
           <div className="value-card-large">
             <div className="value-icon-large">🌙</div>
-            <h2 className="value-title">Valeurs islamiques</h2>
+            <h2 className="value-title">Références islamiques</h2>
             <p className="value-description">
-              Un enseignement qui incorpore harmonieusement nos principes, en honorant et en suivant l'exemple 
-              de nos pieux ancêtres, sans contrainte ni propagande. Nous enseignons avec bienveillance que 
-              le succès provient d'Allah et que la connaissance constitue un acte de dévotion.
+              Un enseignement équilibré qui incorpore nos principes, en suivant la voie de nos pieux 
+              ancêtres, sans stress ni message forcé. Nous enseignons avec intelligence que chaque 
+              succès provient d'Allah et que la recherche de la connaissance représente un acte de dévotion.
             </p>
           </div>
 
           <div className="value-card-large">
             <div className="value-icon-large">👨‍👩‍👧‍👦</div>
-            <h2 className="value-title">Proximité familiale</h2>
+            <h2 className="value-title">Esprit familial</h2>
             <p className="value-description">
-              Un accompagnement sur mesure, une attention bienveillante et une accessibilité permanente pour 
-              vous guider étape par étape. Vous n'êtes pas isolées dans cette démarche : nous restons à vos 
-              côtés pour vous soutenir, à l'image d'une famille unie.
+              Un accompagnement sur mesure, une attention bienveillante et une accessibilité permanente pour vous 
+              guider à chaque moment. Vous n'êtes pas isolées dans cette démarche : nous progressons 
+              collectivement, dans une dynamique d'entraide et de sérénité.
             </p>
           </div>
         </div>
@@ -386,8 +337,8 @@ const Home = () => {
         <div className="faq-hero">
           <h1 className="page-title">Questions fréquentes</h1>
           <p className="page-subtitle">
-            Nous avons rassemblé ici les questions les plus courantes de nos familles. 
-            Si vous ne trouvez pas la réponse, n'hésitez pas à nous contacter directement !
+            Découvrez ici les solutions aux interrogations les plus courantes des familles.
+            Si un élément demeure imprécis, contactez-nous sans hésitation : nous serons heureuses de vous assister.
           </p>
         </div>
 
@@ -429,19 +380,20 @@ const Home = () => {
       {/* Contact Section */}
       <section id="contact" className="contact-section">
         <div className="contact-hero">
-          <h1 className="page-title">Prêt(e) à commencer l'aventure ?</h1>
+          <h1 className="page-title">Souhaitez-vous commencer cette magnifique aventure ?</h1>
           <p className="page-subtitle">
-            Contactez-nous dès maintenant. Nous vous répondons sous 48h in sha'Allah, et souvent bien plus vite ! 
-            Posez vos questions, partagez vos besoins : nous sommes là pour vous écouter.
+            N'hésitez pas à nous contacter dès maintenant. Nous vous répondons sous 48h in sha'Allah, 
+            et généralement beaucoup plus vite. Vos interrogations, vos aspirations et vos buts nous tiennent à cœur :
+            nous restons disponibles pour vous entendre.
           </p>
         </div>
 
         <div className="contact-content">
           <div className="contact-messaging">
-            <h2 className="messaging-title">Envoyez-nous un message instantané</h2>
+            <h2 className="messaging-title">Communication instantanée et simple</h2>
             <p className="messaging-text">
-              Pour une réponse immédiate, privilégiez WhatsApp ou Telegram ! 
-              Nous sommes disponibles du lundi au samedi, de 9h à 18h.
+              Pour une discussion rapide, nous vous recommandons WhatsApp ou Telegram.
+              Nous sommes accessibles du lundi au samedi, de 9h à 18h.
             </p>
             <div className="messaging-buttons">
               <a href="https://wa.me/201281627486" className="messaging-btn whatsapp" target="_blank" rel="noopener noreferrer">

@@ -61,18 +61,6 @@ const Header = () => {
             Cours
           </button>
           <button 
-            onClick={() => handleScrollTo('gratuit')} 
-            className={activeSection === 'gratuit' ? 'active' : ''}
-          >
-            Gratuit
-          </button>
-          <button 
-            onClick={() => handleScrollTo('faq')} 
-            className={activeSection === 'faq' ? 'active' : ''}
-          >
-            FAQ
-          </button>
-          <button 
             onClick={() => handleScrollTo('contact')} 
             className={activeSection === 'contact' ? 'active' : ''}
           >

@@ -5,7 +5,7 @@ const Gratuit = () => {
   return (
     <div className="gratuit-page">
       <section className="gratuit-hero">
-        <h1 className="page-title">📣 Assises du vendredi</h1>
+        <h1 className="page-title">📣 Annonce des Assises du Vendredi</h1>
         <p className="page-subtitle">
           Correction de la lecture de Sūrat al-Fātiḥa
         </p>
@@ -13,32 +13,24 @@ const Gratuit = () => {
 
       <section className="gratuit-content">
         <div className="gratuit-card">
-          <h2 className="gratuit-title">
-            Assise hebdomadaire – chaque vendredi à 20h (heure de France)
-          </h2>
-
           <p className="gratuit-text">
-            <strong>Alḥamdulillāh</strong>, nous organisons chaque vendredi une assise dédiée à la
-            correction de la lecture de <strong>Sūrat al-Fātiḥa</strong>.
-            Cette assise est ouverte à <strong>tous</strong> : hommes, femmes et enfants.
+            <strong>Alḥamdulillāh</strong>, nous ouvrons chaque vendredi à 20h (heure de France) une assise dédiée à la correction de la lecture de <strong>Sūrat al-Fātiḥa</strong>, ouverte à tous : hommes, femmes et enfants.
           </p>
 
-          <h3 className="gratuit-subtitle">🎯 Objectif</h3>
+          <h3 className="gratuit-subtitle">🎯 Objectif :</h3>
           <p className="gratuit-text">
-            Améliorer ta récitation, corriger tes erreurs et perfectionner ta lecture
-            de manière progressive et encadrée.
+            Améliorer ta récitation, corriger tes erreurs, et perfectionner ta lecture.
           </p>
 
           <h3 className="gratuit-subtitle">📖 Pourquoi participer ?</h3>
           <ul className="gratuit-list">
-            <li>La Fātiḥa est la mère du Qur’ān et la sourate la plus importante</li>
-            <li>Sa récitation correcte est une obligation dans chaque prière</li>
-            <li>Une correction régulière permet une lecture juste, fluide et apaisée</li>
+            <li>La Fātiḥa est la mère du Qur'ān, la sourate la plus importante</li>
+            <li>Sa bonne lecture est une obligation dans chaque prière</li>
+            <li>Une correction régulière garantit une récitation conforme et apaisée</li>
           </ul>
 
           <p className="gratuit-text">
-            🕊️ Les séances sont ouvertes à <strong>tous les niveaux</strong>, dans une ambiance
-            sérieuse, bienveillante et motivante.
+            🕊️ Séance ouverte à tous les niveaux, dans une ambiance sérieuse, bienveillante et motivante.
           </p>
 
           <a

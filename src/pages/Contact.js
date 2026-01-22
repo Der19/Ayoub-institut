@@ -26,20 +26,20 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <section className="contact-hero">
-        <h1 className="page-title">Envie de débuter cette belle aventure ?</h1>
+        <h1 className="page-title">Souhaitez-vous commencer cette magnifique aventure ?</h1>
         <p className="page-subtitle">
-          N’hésitez pas à nous écrire dès aujourd’hui. Nous vous répondons sous 48h in sha’Allah, 
-          et bien souvent plus rapidement. Vos questions, vos attentes et vos objectifs nous intéressent :
-          nous sommes à votre écoute.
+          N'hésitez pas à nous contacter dès maintenant. Nous vous répondons sous 48h in sha'Allah, 
+          et généralement beaucoup plus vite. Vos interrogations, vos aspirations et vos buts nous tiennent à cœur :
+          nous restons disponibles pour vous entendre.
         </p>
       </section>
 
       <section className="contact-content">
         <div className="contact-messaging">
-          <h2 className="messaging-title">Contact rapide et direct</h2>
+          <h2 className="messaging-title">Communication instantanée et simple</h2>
           <p className="messaging-text">
-            Pour un échange immédiat, nous vous conseillons WhatsApp ou Telegram.
-            Nous sommes joignables du lundi au samedi, de 9h à 18h.
+            Pour une discussion rapide, nous vous recommandons WhatsApp ou Telegram.
+            Nous sommes accessibles du lundi au samedi, de 9h à 18h.
           </p>
 
           <div className="messaging-buttons">

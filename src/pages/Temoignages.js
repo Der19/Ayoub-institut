@@ -23,7 +23,7 @@ const Temoignages = () => {
   return (
     <div className="temoignages-page">
       <section className="temoignages-hero">
-        <h1 className="page-title">Ce que disent les mamans qui nous font confiance</h1>
+        <h1 className="page-title">Les témoignages des mamans qui nous accordent leur confiance</h1>
       </section>
 
       <section className="temoignages-grid">

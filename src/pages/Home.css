@@ -565,6 +565,75 @@
   padding: 0 2rem;
 }
 
+.gratuit-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.gratuit-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.gratuit-text {
+  color: var(--color-text-gray);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.gratuit-subtitle {
+  font-size: 1.3rem;
+  color: var(--color-text-dark);
+  margin: 2rem 0 1rem;
+  font-weight: 600;
+}
+
+.gratuit-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.gratuit-list li {
+  color: var(--color-text-gray);
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.gratuit-list li:before {
+  content: "•";
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+}
+
+.gratuit-button {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.gratuit-button:hover {
+  background-color: var(--color-primary-light);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(26, 54, 93, 0.3);
+}
+
 .resources-grid {
   max-width: 1200px;
   margin: 0 auto;

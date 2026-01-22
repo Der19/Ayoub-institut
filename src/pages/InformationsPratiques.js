@@ -8,8 +8,8 @@ const InformationsPratiques = () => {
       <section className="infos-hero">
         <h1 className="page-title">Informations pratiques</h1>
         <p className="page-subtitle">
-          Des créneaux adaptés aux contraintes familiales, avec flexibilité et organisation. 
-          Parce que nous savons que jongler entre école, activités et vie de famille n'est pas toujours simple.
+          Des horaires ajustés aux obligations familiales, avec souplesse et structuration. 
+          Car nous comprenons que concilier école, loisirs et vie familiale n'est pas toujours évident.
         </p>
       </section>
 
@@ -25,7 +25,7 @@ const InformationsPratiques = () => {
             <div className="info-content">
               <h3 className="info-title">Créneaux horaires</h3>
               <p className="info-text">
-                Nous proposons les créneaux sur demande, en fonction des disponibilités de notre équipe pédagogique.
+                Nous offrons les horaires à la demande, selon les disponibilités de notre équipe éducative.
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@ const InformationsPratiques = () => {
             <div className="info-content">
               <h3 className="info-title">Plateforme de cours</h3>
               <p className="info-text">
-                Zoom ou Google Meet (selon votre préférence) • Lien sécurisé envoyé par Whatsapp
+                Zoom ou Google Meet (selon votre choix) • Lien protégé transmis par Whatsapp
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ const InformationsPratiques = () => {
             <div className="info-content">
               <h3 className="info-title">Formats disponibles</h3>
               <p className="info-text">
-                Cours individuels (100% personnalisés) • Petits groupes de 3 à 5 élèves max
+                Formations individuelles (100% sur mesure) • Petits groupes de 3 à 5 apprenants maximum
               </p>
             </div>
           </div>

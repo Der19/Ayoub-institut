@@ -5,10 +5,10 @@ const Cours = () => {
   return (
     <div className="cours-page">
       <section className="cours-hero">
-        <h1 className="page-title">Nos cours en ligne</h1>
+        <h1 className="page-title">Nos formations en ligne</h1>
         <p className="page-subtitle">
-          Des programmes adaptés à chaque besoin, pour chaque période de l'année. 
-          Parce que l'apprentissage ne s'arrête jamais.
+          Des contenus personnalisés selon chaque profil, pour chaque moment de l'année. 
+          Car la formation se poursuit en permanence.
         </p>
       </section>
 
@@ -21,9 +21,9 @@ const Cours = () => {
           </div>
           <h2 className="cours-title">Aide aux devoirs & cours particuliers</h2>
           <p className="cours-description">
-            Votre enfant a besoin d'un coup de pouce en français, mathématiques ou anglais ? 
-            Nos cours particuliers et séances d'aide aux devoirs lui permettent de progresser 
-            en douceur, à son rythme.
+            Votre enfant nécessite un soutien en français, mathématiques ou anglais ? 
+            Nos leçons individuelles et sessions d'assistance aux devoirs lui offrent la possibilité d'avancer 
+            progressivement, selon sa cadence.
           </p>
           <ul className="cours-features">
             <li>
@@ -51,9 +51,9 @@ const Cours = () => {
           </div>
           <h2 className="cours-title">Apprentissage de la langue arabe</h2>
           <p className="cours-description">
-            Offrez à votre enfant (ou à vous-même) la clé du Quran : la langue arabe. 
-            De l'alphabet aux conversations courantes, notre méthode progressive et ludique 
-            rend l'apprentissage fluide et agréable.
+            Proposez à votre enfant (ou à vous-même) l'accès au Quran : la langue arabe. 
+            Depuis l'alphabet jusqu'aux échanges quotidiens, notre approche graduelle et amusante 
+            transforme la formation en expérience naturelle et plaisante.
           </p>
           <ul className="cours-features">
             <li>
@@ -81,8 +81,8 @@ const Cours = () => {
           </div>
           <h2 className="cours-title">Quran</h2>
           <p className="cours-description">
-            Initiez votre enfant à la mémorisation du Quran avec tajwid. 
-            Nos cours allient rigueur et bienveillance.
+            Introduisez votre enfant à l'apprentissage par cœur du Quran avec tajwid. 
+            Nos formations combinent sérieux et compassion.
           </p>
           <ul className="cours-features">
             <li>
