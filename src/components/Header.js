@@ -10,7 +10,7 @@ const Header = () => {
       setIsScrolled(window.scrollY > 50);
       
       // Détecter la section active
-      const sections = ['accueil', 'cours', 'gratuit', 'a-propos', 'faq', 'contact'];
+      const sections = ['accueil', 'cours', 'gratuit', 'a-propos', 'contact'];
       const scrollPosition = window.scrollY + 100;
       
       for (let i = sections.length - 1; i >= 0; i--) {

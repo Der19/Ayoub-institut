@@ -37,9 +37,9 @@
 }
 
 .logo-image {
-  height: 50px;
+  height: 70px;
   width: auto;
-  max-width: 200px;
+  max-width: 280px;
   object-fit: contain;
   object-position: center;
 }
@@ -114,8 +114,8 @@
   }
 
   .logo-image {
-    height: 40px;
-    max-width: 150px;
+    height: 55px;
+    max-width: 200px;
   }
 
   .btn-register {
