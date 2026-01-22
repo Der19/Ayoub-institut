@@ -5,6 +5,7 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     prenom: '',
     age: '',
+    niveau: '',
     cours: '',
     email: '',
     telephone: '',
@@ -12,9 +13,18 @@ const Contact = () => {
   });
 
   const handleChange = (e) => {
+    const { name, value } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [name]: value
+    });
+  };
+
+  const handleAgeChange = (e) => {
+    const value = e.target.value.replace(/[^0-9]/g, ''); // Garder seulement les chiffres
+    setFormData({
+      ...formData,
+      age: value
     });
   };
 
@@ -72,16 +82,47 @@ const Contact = () => {
           </div>
 
           <div className="form-group">
-            <label htmlFor="age">Âge / Niveau scolaire *</label>
-            <input
-              type="text"
-              id="age"
-              name="age"
-              placeholder="Ex : 8 ans - CE2 ou Adulte"
-              value={formData.age}
+            <label htmlFor="age">Âge *</label>
+            <div style={{ position: 'relative' }}>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Ex : 8"
+                value={formData.age}
+                onChange={handleAgeChange}
+                min="1"
+                max="120"
+                required
+                style={{ paddingRight: '40px' }}
+              />
+              <span style={{ 
+                position: 'absolute', 
+                right: '15px', 
+                top: '50%', 
+                transform: 'translateY(-50%)',
+                color: '#666',
+                pointerEvents: 'none'
+              }}>
+                ans
+              </span>
+            </div>
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="niveau">Niveau *</label>
+            <select
+              id="niveau"
+              name="niveau"
+              value={formData.niveau}
               onChange={handleChange}
               required
-            />
+            >
+              <option value="">Sélectionnez un niveau</option>
+              <option value="debutant">Débutant</option>
+              <option value="intermediaire">Intermédiaire</option>
+              <option value="avance">Avancé</option>
+            </select>
           </div>
 
           <div className="form-group">
@@ -94,9 +135,9 @@ const Contact = () => {
               required
             >
               <option value="">Choisissez un cours</option>
-              <option value="aide-devoirs">Aide aux devoirs & soutien scolaire</option>
-              <option value="arabe">Apprentissage de l’arabe</option>
-              <option value="quran">Qur’an</option>
+              <option value="quran">Qur'an</option>
+              <option value="arabe">Apprentissage de l'arabe</option>
+              <option value="aide-devoirs">Matières scolaires</option>
             </select>
           </div>
 
