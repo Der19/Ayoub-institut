@@ -56,9 +56,6 @@ const Home = () => {
     alert('Votre demande a été envoyée ! Nous vous répondrons sous 24h in sha\'Allah.');
   };
 
-  const handleDownload = (resourceName) => {
-    alert(`Téléchargement de ${resourceName}...`);
-  };
 
 
   return (
