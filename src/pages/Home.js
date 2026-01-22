@@ -127,30 +127,30 @@ const Home = () => {
           <div className="cours-card">
             <div className="cours-icon blue">
               <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
               </svg>
             </div>
-            <h2 className="cours-title">Matières scolaires</h2>
+            <h2 className="cours-title">Quran</h2>
             <p className="cours-description">
-              Votre enfant nécessite un soutien en français, mathématiques ou anglais ? 
-              Nos leçons individuelles et sessions d'assistance aux devoirs lui offrent la possibilité d'avancer 
-              progressivement, selon sa cadence.
+              Introduisez votre enfant à l'apprentissage par cœur du Quran avec tajwid. 
+              Nos formations combinent sérieux et compassion.
             </p>
             <ul className="cours-features">
               <li>
                 <span className="checkmark">✓</span>
-                Niveaux : CP à 3ème
+                Mémorisation + Tajwid
               </li>
               <li>
                 <span className="checkmark">✓</span>
-                Cours individuels ou petits groupes
+                Enfants dès 4 ans et adultes
               </li>
               <li>
                 <span className="checkmark">✓</span>
-                Adaptés aux périodes scolaires
+                Ambiance bienveillante
               </li>
             </ul>
-            <button onClick={() => handleScrollTo('contact')} className="cours-button">Voir les créneaux</button>
+            <button onClick={() => handleScrollTo('contact')} className="cours-button">Rejoindre les cours</button>
           </div>
 
           <div className="cours-card featured">
@@ -186,30 +186,26 @@ const Home = () => {
           <div className="cours-card">
             <div className="cours-icon blue">
               <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
-                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
               </svg>
             </div>
-            <h2 className="cours-title">Quran</h2>
+            <h2 className="cours-title">Matières scolaires</h2>
             <p className="cours-description">
-              Introduisez votre enfant à l'apprentissage par cœur du Quran avec tajwid. 
-              Nos formations combinent sérieux et compassion.
+              Votre enfant nécessite un soutien en français, mathématiques ou anglais ? 
+              Nos leçons individuelles et sessions d'assistance aux devoirs lui offrent la possibilité d'avancer 
+              progressivement, selon sa cadence.
             </p>
             <ul className="cours-features">
               <li>
                 <span className="checkmark">✓</span>
-                Mémorisation + Tajwid
+                Cours individuels ou petits groupes
               </li>
               <li>
                 <span className="checkmark">✓</span>
-                Enfants dès 4 ans et adultes
-              </li>
-              <li>
-                <span className="checkmark">✓</span>
-                Ambiance bienveillante
+                Adaptés aux périodes scolaires
               </li>
             </ul>
-            <button onClick={() => handleScrollTo('contact')} className="cours-button">Rejoindre les cours</button>
+            <button onClick={() => handleScrollTo('contact')} className="cours-button">Voir les créneaux</button>
           </div>
         </div>
       </section>
